@@ -1,0 +1,156 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #F3E5D7;
+    font-family: Outfit;
+}
+
+.container{
+    width: 100%; 
+    max-width: 736px; 
+    background-color: white;
+    padding: 40px 20px; 
+    border-radius: 24px;
+    box-sizing: border-box; 
+}
+img{
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 12px;
+}
+div .image{
+    margin-bottom: 40px;
+}
+h1{
+    color: #312E2C;
+    margin-bottom: 24px;
+}
+.description{
+    color: #5F564D;
+}
+.main_content_block{
+    margin-bottom: 32px;
+}
+.preparation_time h3{
+    color: #7A284E;
+    margin-bottom: 16px;
+}
+.preparation_time{
+    padding: 28px;
+    background-color: #FFF7FB;
+}
+.preparation_time_iteam{
+    color: #5F564D;
+}
+.preparation_time_iteam span{
+    font-weight: bold;
+}
+.ingredients{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #E3DDD7;
+}
+.ingredients h2{
+    font-family: 'Young Serif';
+    color: #854632;
+    margin-bottom: 24px;
+    margin-top: 0px;
+}
+.ingredients_list{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+.ingredients_list_iteam{
+    color: #5F564D;
+    line-height: 32px;
+    font-family: Outfit;
+}
+.ingredients_list_iteam::before{
+    content: "•";
+    color: #854632;
+    padding-right: 16px;
+    padding-left: 8px;
+    font-size: 24px;
+}
+.instructions{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #E3DDD7;
+}
+.instructions h2{
+    font-family: 'Young Serif';
+    color: #854632;
+}
+.instructions_list{
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+.instructions_list_iteam{
+    padding-bottom: 8px;
+    color: #5F564D;
+    font-family: Outfit;
+    counter-increment: step-counter;
+    text-align: left;
+}
+.instructions_list_iteam span{
+    font-family: Outfit;
+    font-weight: bold;
+    color: #5F564D;
+}
+.instructions_list_iteam::before{
+    content:  counter(step-counter)'.';
+    color: #854632;
+    font-weight: bold;
+}
+.nutrition-table .divider {
+    padding-bottom: 14px;
+    padding-top: 14px;
+  }
+  .nutrition-table .bold {
+    color: hsl(14, 45%, 36%);
+  }
+  .nutrition-table .divider:last-child {
+    border: 0px;
+    padding-bottom: 0px;
+  }
+.nutrition-table h2{
+    font-family: 'Young Serif';
+    color: #854632;
+  }
+.two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .bold {
+    font-weight: 700;
+  }
+  
+  .divider {
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
